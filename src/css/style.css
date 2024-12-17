@@ -1,0 +1,78 @@
+body {
+    background-color: slategray;
+    color: cornsilk;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-family: 36px ;
+    line-height: 1.5 ;
+    color: whitesmoke;
+}
+
+main {
+  
+}
+
+form {
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    background-color: whitesmoke ;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.prompt {
+    padding:16px;
+    border: 1px solid rgb(145, 145, 145);
+    width: 80%;
+    font-size: 16px;
+    border-radius: 25px;
+    line-height: 1.5;
+    color: rgb(13, 23, 23);
+}
+
+.submit-button {
+    font-size: 16px;
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 25px;
+    padding: 14px 24px;
+    background-color: slategray;
+    color: cornsilk;
+    border: none;
+
+}
+
+.recipe {
+    font-size: 16px;
+    background-color: whitesmoke;
+    color: rgb(40, 46, 52);
+    padding: 20px;
+    line-height: 2;
+    border-left: 3px solid darkorchid; 
+    border-radius: 5px;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+a {
+    color: rgb(132, 4, 196);
+    font-weight: 800;
+}
