@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
     <title>AI Add-on project</title>
 </head>
 
 <body>
+    <div class="background"></div>
     <div class="container">
         <header>
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/153/389/original/chop_chop_logo_mock.png?1734995610" alt="Logo" class="logo" />
             <h1>AI Recipe Generator</h1>
         </header>
 
         <main>
+            <div class="form-wrapper">
             <form id="recipe-generator-form">
-                <input type="text" 
-                placeholder="Enter the main ingredient of the recipe" 
-                autofocus 
-                required
-                class="prompt" 
-                id="user-instructions"
-                />
-                
+                <input type="text" placeholder="Enter the recipe or main ingredient you'd like" autofocus required
+                    class="prompt" id="user-instructions" />
+
                 <input type="submit" class="submit-button" />
             </form>
 
-            <div class="recipe" id="recipe">
-            </div>
-
+            <small class="hint">i.e Pasta, Egg or Pancakes</small>
+           </div>
+            <div class="recipe hidden" id="recipe">
+         
+</div>
         </main>
         <footer>
             This AI Project was coded by <a href="https://joziekhanyiedd1.myportfolio.com/" target="_blank">Khanyi
