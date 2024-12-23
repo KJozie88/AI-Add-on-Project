@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
     <title>AI Add-on project</title>
 </head>
 
@@ -18,8 +18,14 @@
 
         <main>
             <form id="recipe-generator-form">
-                <input type="text" placeholder="Enter the main ingredient of the recipe" autofocus required
-                    class="prompt" />
+                <input type="text" 
+                placeholder="Enter the main ingredient of the recipe" 
+                autofocus 
+                required
+                class="prompt" 
+                id="user-instructions"
+                />
+                
                 <input type="submit" class="submit-button" />
             </form>
 

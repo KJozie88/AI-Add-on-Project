@@ -66,6 +66,10 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
+.recipe strong {
+    color: slategray;
+}
+
 footer {
     text-align: center;
     font-size: 14px;
